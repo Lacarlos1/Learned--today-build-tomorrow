@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Larcarlos Tech World</title>
+
+  <meta name="description" content="Larcarlos Tech World is a technology company built to help everyone through AI, cybersecurity, web development, education, and digital solutions.">
+
+  <title>Larcarlos Tech World | Learned Today — Build Tomorrow</title>
 
   <style>
     * {
@@ -13,33 +16,50 @@
     }
 
     body {
+      margin: 0;
       background: #080d1a;
       color: #ffffff;
       font-family: Arial, sans-serif;
-      margin: 0;
-      line-height: 1.6;
+      line-height: 1.7;
     }
 
     header {
-      background: #101d38;
-      color: #00aaff;
+      background: linear-gradient(135deg, #101d38, #080d1a);
       text-align: center;
-      padding: 35px 15px;
+      padding: 70px 20px;
+      border-bottom: 2px solid #007bff;
+    }
+
+    header h1 {
+      color: #00aaff;
+      font-size: 36px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    .tagline {
+      color: #00aaff;
+      font-weight: bold;
     }
 
     nav {
-      background: #111b30;
-      padding: 15px;
+      background: #101d38;
+      padding: 14px 8px;
       text-align: center;
       position: sticky;
       top: 0;
+      z-index: 10;
     }
 
     nav a {
+      display: inline-block;
       color: #00aaff;
       text-decoration: none;
-      margin: 8px;
+      margin: 5px 8px;
       font-weight: bold;
+      font-size: 14px;
     }
 
     nav a:hover {
@@ -48,78 +68,219 @@
 
     section {
       background: #111b30;
-      margin: 20px auto;
-      padding: 25px;
-      border-radius: 12px;
+      max-width: 950px;
+      width: calc(100% - 30px);
+      margin: 25px auto;
+      padding: 28px;
       border: 1px solid #007bff;
-      max-width: 850px;
-      width: calc(100% - 32px);
+      border-radius: 12px;
     }
 
     h2 {
       color: #00aaff;
     }
 
-    .project {
-      background: #080d1a;
-      padding: 15px;
-      margin: 12px 0;
-      border-radius: 8px;
-      border-left: 3px solid #007bff;
+    h3 {
+      color: #ffffff;
     }
 
-    button {
-      background: #007bff;
-      color: white;
-      padding: 12px 24px;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-      box-shadow: 0 0 12px #007bff;
-    }
-
-    button:hover {
-      background: #0056b3;
-    }
     .hero-button {
       display: inline-block;
       background: #007bff;
       color: white;
-      padding: 12px 24px;
-      margin-top: 12px;
+      padding: 12px 22px;
+      margin: 12px 5px;
       border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
     }
 
+    .hero-button:hover {
+      background: #0056b3;
+    }
+
+    .project {
+      background: #080d1a;
+      padding: 18px;
+      margin: 15px 0;
+      border-radius: 8px;
+      border-left: 4px solid #007bff;
+    }
+
+    .status {
+      color: #00aaff;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .company-intro {
+      max-width: 750px;
+      margin: auto;
+    }
+
     footer {
       background: #101d38;
-      text-align: center;
-      padding: 20px;
       color: #00aaff;
+      text-align: center;
+      padding: 25px;
+      margin-top: 35px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+
+      nav a {
+        font-size: 12px;
+        margin: 5px;
+      }
+
+      section {
+        padding: 20px;
+      }
     }
   </style>
-  
-}
 </head>
 
 <body>
 
   <header>
     <h1>Larcarlos Tech World 💻</h1>
-    <p>Learned Today — Build Tomorrow</p>
-    <p>Learning, Building, and Growing Every Day.</p>
+
+    <p class="tagline">
+      Learned Today — Build Tomorrow.
+    </p>
+
+    <div class="company-intro">
+      <p>
+        A technology company built to help everyone.
+        Bringing people, knowledge, and technology together
+        to create opportunities for tomorrow.
+      </p>
+    </div>
+
+    <a href="#services" class="hero-button">
+      Explore Our Services 🚀
+    </a>
+
+    <a href="#about" class="hero-button">
+      Discover Our Mission
+    </a>
   </header>
-<a href="#projects" class="hero-button">View My Projects 🚀</a>
+
   <nav>
-  <a href="#universal-ai">Universal AI 🤖</a>
-  <a href="#about">About Me</a>
-  <a href="#projects">Projects</a>
-  <a href="#skills">Skills</a>
-  <a href="#goals">Goals</a>
-  <a href="#contact">Contact</a>
-</nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#store">Store</a>
+    <a href="#projects">Projects</a>
+    <a href="#learning">Learning</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Larcarlos Tech World 🌎</h2>
+
+    <p>
+      Technology is changing the world.
+      Our vision is to help people understand it,
+      use it, and build a better future with it.
+    </p>
+
+    <p>
+      Everyone deserves an opportunity to learn,
+      grow, and participate in technology.
+    </p>
+  </section>
+
+  <section id="about">
+    <h2>About Our Company</h2>
+
+    <p>
+      Larcarlos Tech World is being developed as
+      a technology company focused on making
+      technology more accessible to everyone.
+    </p>
+
+    <p>
+      Our mission is to bring together artificial
+      intelligence, web development, cybersecurity,
+      education, and digital solutions.
+    </p>
+
+    <p>
+      We believe in learning today and building
+      tomorrow, one step at a time.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Seven Business Divisions 🚀</h2>
+
+    <div class="project">
+      <h3>🛒 1. Larcarlos Online Store</h3>
+      <p>
+        Technology products, accessories,
+        and useful everyday products.
+      </p>
+      <p class="status">Store development planned</p>
+    </div>
+
+    <div class="project">
+      <h3>🤖 2. Larcarlos AI</h3>
+      <p>
+        Artificial intelligence tools,
+        smart assistants, and automation.
+      </p>
+      <p class="status">Development planned</p>
+    </div>
+
+    <div class="project">
+      <h3>🌐 3. Larcarlos Web Development</h3>
+      <p>
+        Website design, development,
+        and online business solutions.
+      </p>
+      <p class="status">Building skills and projects</p>
+    </div>
+
+    <div class="project">
+      <h3>🔐 4. Larcarlos Cybersecurity</h3>
+      <p>
+        Online safety, website protection,
+        and cybersecurity education.
+      </p>
+      <p class="status">Learning and development</p>
+    </div>
+
+    <div class="project">
+      <h3>🎓 5. Larcarlos Learning Center</h3>
+      <p>
+        Computer science, programming,
+        networking, and technology education.
+      </p>
+      <p class="status">Learning platform planned</p>
+    </div>
+
+    <div class="project">
+      <h3>📚 6. Larcarlos Digital Products</h3>
+      <p>
+        Digital guides, templates,
+        educational resources, and downloads.
+      </p>
+      <p class="status">Development planned</p>
+    </div>
+
+    <div class="project">
+      <h3>🏢 7. Larcarlos Business Solutions</h3>
+      <p>
+        Technology support, business automation,
+        and digital solutions for organizations.
+      </p>
+      <p class="status">Future business division</p>
+    </div>
+  </section>
 
   <section id="universal-ai">
     <h2>🤖 Larcarlos Universal AI</h2>
@@ -127,8 +288,7 @@
     <h3>One Platform. Unlimited Knowledge.</h3>
 
     <p>
-      Welcome to Larcarlos Universal AI.
-      Our mission is to bring artificial intelligence,
+      Our vision is to bring artificial intelligence,
       knowledge, technology, and people together.
     </p>
 
@@ -139,7 +299,10 @@
 
     <div class="project">
       <h3>🗄️ Universal Knowledge Database</h3>
-      <p>Build a central place for information and learning.</p>
+      <p>
+        Build a central place for information
+        and learning.
+      </p>
     </div>
 
     <div class="project">
@@ -148,152 +311,122 @@
     </div>
 
     <div class="project">
-      <h3>🌎 People and Global Network</h3>
-      <p>Connect people and share knowledge around the world.</p>
+      <h3>🌎 Global Network</h3>
+      <p>
+        Connect people and share knowledge
+        around the world.
+      </p>
     </div>
+
+    <p class="status">Future platform under development</p>
   </section>
-  
-  <section id="about">
-    <h2>About Me 👨‍💻</h2>
+
+  <section id="store">
+    <h2>Our Online Store 🛍️</h2>
+
     <p>
-      My name is Larcarlos Moss. I am a computer science
-      information student at Post University. I am learning
-      technology, building websites, and working toward
-      a better future.
+      Our vision is to create an online store
+      where customers can explore useful products
+      and technology accessories.
     </p>
-    <p>
-      I believe in learning today and building tomorrow.
-      Every day is another opportunity to grow.
+
+    <p class="status">
+      COMING SOON — STORE UNDER DEVELOPMENT
     </p>
   </section>
 
   <section id="projects">
-    <h2>My Projects 💻</h2>
-    <p>Here are some of the projects I am working on.</p>
-<p>
+    <h2>Our Projects 💻</h2>
 
-  <a href="https://github.com/Lacarlos1"
-
-     target="_blank"
-
-     rel="noopener noreferrer"
-
-     class="hero-button">
-
-    Visit My GitHub 💻
-
-  </a>
-
-</p>
     <div class="project">
-      <h3>My First Website 🌐</h3>
+      <h3>Larcarlos Tech World Website 🌐</h3>
       <p>
-        I built my first website using HTML and CSS
-        right from my phone.
+        Our company website, built using HTML
+        and CSS from an iPhone.
+      </p>
+
+      <a
+        href="https://lacarlos1.github.io/Learned--today-build-tomorrow/"
+        class="hero-button">
+        View Live Website 🚀
+      </a>
+    </div>
+
+    <div class="project">
+      <h3>Artificial Intelligence Project 🤖</h3>
+      <p>
+        Learning how to build intelligent
+        technology tools.
       </p>
     </div>
 
     <div class="project">
-      <h3>My First AI Project 🤖</h3>
+      <h3>Cybersecurity Project 🔐</h3>
       <p>
-        I am working toward learning how to build
-        artificial intelligence projects.
-      </p>
-    </div>
-
-    <div class="project">
-      <h3>Cybersecurity 🔐</h3>
-      <p>
-        I am learning how to protect websites,
+        Learning how to protect websites,
         computers, and people's information.
       </p>
     </div>
-  
-<section id="projects">
-  <div class="project">
-    <h3>Larcarlos Tech World Website 🌐</h3>
-    <p>
-      My personal technology website, built with
-      HTML and CSS using my phone.
-    </p>
-    <a href="https://lacarlos1.github.io/Learned--today-build-tomorrow/"
-       class="hero-button">
-      View Live Website 🚀
+
+    <a
+      href="https://github.com/Lacarlos1"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="hero-button">
+      Visit Our GitHub 💻
     </a>
-  </div>
-  
-</section>
-<section id="skills">
-  <h2>Skills I'm Learning 🚀</h2>
-  <ul>
-    <li>Computer Technology</li>
-    <li>HTML and CSS</li>
-    <li>JavaScript</li>
-    <li>Web Development</li>
-    <li>Cybersecurity</li>
-    <li>Digital Citizenship</li>
-    <li>Artificial Intelligence (AI)</li>
-    <li>Database Management</li>
-    <li>Computer Networking</li>
-  </ul>
-  
-</section>
-  <section id="skills">
-    <h2>Skills I'm Learning 🚀</h2>
-    <ul>
-      <li>Computer Technology</li>
-      <li>HTML and CSS</li>
-      <li>JavaScript</li>
-      <li>Web Development</li>
-      <li>Cybersecurity</li>
-      <li>Digital Citizenship</li>
-    </ul>
-    
   </section>
 
-  <section id="goals">
-    <h2>My Goals 🎯</h2>
+  <section id="learning">
+    <h2>Learn Technology With Us 📖</h2>
+
     <p>
-      My goal is to build a career in technology,
-      earn my college degree, learn cybersecurity,
-      and create a better future for myself.
+      Knowledge creates opportunities.
+      Our goal is to make technology easier
+      for beginners and experienced learners.
     </p>
-    <p>
-      I will keep learning, stay focused, and
-      never give up on my dreams.
-    </p>
-    <button onclick="showMessage()">
-      Keep Learning 🚀
-    </button>
+
+    <ul>
+      <li>Computer Science</li>
+      <li>HTML and CSS</li>
+      <li>JavaScript</li>
+      <li>Artificial Intelligence</li>
+      <li>Cybersecurity</li>
+      <li>Database Management</li>
+      <li>Computer Networking</li>
+      <li>Digital Citizenship</li>
+    </ul>
   </section>
 
   <section id="contact">
-    <h2>Contact Me 📱</h2>
+    <h2>Connect With Us 📱</h2>
+
     <p>
-      Thank you for visiting Larcarlos Tech World.
-      I am learning, building, and growing every day.
+      Have a question, an idea, or an interest
+      in technology?
     </p>
-    <button onclick="contactMessage()">
-      Say Hello 👋
-    </button>
+
+    <p>
+      We want to build connections with people
+      and businesses around the world.
+    </p>
+
+    <a
+      href="https://github.com/Lacarlos1"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="hero-button">
+      Connect Through GitHub
+    </a>
   </section>
 
   <footer>
     <p>© 2026 Larcarlos Tech World</p>
-    <p>Built by Larcarlos 💻</p>
-    <p>Learned Today — Build Tomorrow</p>
+    <p>Learned Today — Build Tomorrow.</p>
+    <p>A Technology Company Built to Help Everyone.</p>
   </footer>
-
-  <script>
-    function showMessage() {
-      alert("I will keep learning and never give up!");
-    }
-
-    function contactMessage() {
-      alert("Thank you for visiting Larcarlos Tech World!");
-    }
-  </script>
 
 </body>
 </html>
+
 
